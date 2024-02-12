@@ -1,0 +1,215 @@
+:root {
+    --rojoUAEH: #AF231C;
+    --grisUAEH: #53565A;
+    --marronUAEH: #622128;
+}
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.dropLink{
+    color: #b8b8b8;
+} 
+
+ul li {
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+ul li:hover {
+  background: #b8b8b885;
+  border-radius: 50px;
+} 
+
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+
+}
+
+ul li ul li { 
+  background: #ffffff; 
+  display: block; 
+  
+}
+
+ul li ul li:hover { 
+    background: #b8b8b8; 
+    color: #ffffff;
+    z-index: 2;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+}
+
+
+
+.drowDown:hover{
+    background-color: #b8b8b8;
+    color: rgb(252, 252, 252);
+}
+
+.ttl{
+    position: fixed;
+    background-color: var(--rojoUAEH);
+    font-size: 18px;
+    z-index: 1;
+}
+
+.inicio{
+    position: fixed;
+    background-color: var(--grisUAEH);
+    width: 10px;
+    height: 10px;
+    font-size: 18px;
+    z-index: 1;
+}
+
+#navegacionTitulos a{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#navegacionTitulos a:hover{
+    color: var(--grisUAEH);
+}
+
+.frstPrt{
+    background-image: url(../media/imagenes/uaehFondo01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box{
+    background-color: #af231c8f;
+}
+
+.xtra{
+    background-image: url(../media/imagenes/educacion.png);
+    background-size: 100px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.xtra2{
+    background-color: var(--marronUAEH);
+}
+
+.contactoBox{
+    background-color: #ffffff;
+}
+
+hr{
+    height: 3px;
+    width: 200px;
+    background-color: #ffffff;
+}
+
+.hrRojo{
+    height: 3px;
+    width: 200px;
+    background-color: var(--rojoUAEH);
+}
+
+.hrNegro{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(27, 27, 27);
+}
+
+.apartado{
+    padding: 70px;
+}
+
+.txtBody{
+    font-size: 18px;
+}
+
+.txtRojo {
+    color: var(--rojoUAEH);
+}
+
+.txtBlanco {
+    color: #ffffff;
+}
+
+.sp-box1{
+    background-color: var(--rojoUAEH);
+}
+
+.sp-box2{
+    background-color: #ded6c0;
+    color: var(--rojoUAEH);
+}
+
+.trdPrt{
+    background-image: url(../media/imagenes/uaehFondo02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.frtPrt{
+    background-image: url(../media/imagenes/uaehTizayuca.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-texto #btn{
+    font-size: 15px;
+    background-color: var(--grisUAEH);
+    color: #f5f0ed;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#btn:hover{
+    color: var(--rojoUAEH);
+}
+
+.frthPrt{
+    background-color: #ded6c0;
+}
+
+.iconFooter{
+    font-size: 4rem; 
+    color: #ffffff;
+}
+
+.iconFooter:hover{
+    color: var(--rojoUAEH);
+}
+
+footer{
+    background-color: var(--grisUAEH);
+}
+
+.linkMail{
+    color: var(--rojoUAEH);
+}
+
+.linkMail:hover{
+    color: var(--rojoUAEH);
+}
+  .mision-text{
+    text-align: justify;
+  }
